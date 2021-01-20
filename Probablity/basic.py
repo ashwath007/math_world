@@ -12,9 +12,9 @@ class sum_of_error():
 
         return sum(sum_y)//len(self.y_pred)
 
-def main():
-    c = sum_of_error([2,3,4],[4,5,6])
-    print(c.cal())
+# def main():
+#     c = sum_of_error([2,3,4],[4,5,6])
+#     print(c.cal())
 
-if __name__ == '__main__':
-    main()
+# if __name__ == '__main__':
+#     main()
