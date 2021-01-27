@@ -24,7 +24,7 @@ class ev():
                 return sqrt(sum(sum_ar)/len(self.y_pred))
             else:
                 raise Exception("Provide y^ and y of same dimentions") 
-    def 
+
 
 
 
