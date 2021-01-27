@@ -9,8 +9,12 @@ res = euclideanD([[10,12],[20,24],[15,18],[10,8],[5,7]])
 
 
 plt.scatter([10,12],[20,24],c='red')
+plt.scatter([15,18],[10,8],c='blue')
+
 print(res[0])
 plt.plot([10,12],[20,24],'g--', label=res[0])
+plt.plot([15,18],[10,8],'r-o', label=res[1])
+
 plt.legend()
 plt.show()
 
