@@ -5,7 +5,7 @@ from math import sqrt
 class distance():
     def __init__(self,x):
         self.x = x
-    def euclidean():
+    def euclidean(self):
         if len(self.x) ==2:
             X = self.x[0]
             Y = self.x[1]
@@ -13,6 +13,8 @@ class distance():
         else:
             return "Please provide correct dimention"
 
-
-dis = distance([[0,1],[1,1]])
+#Test Class
+'''dis = distance([[3,1],[2,1]])
+dis1 = distance([[2,1],[2,3]])
 print(dis.euclidean())
+print(dis1.euclidean())'''
