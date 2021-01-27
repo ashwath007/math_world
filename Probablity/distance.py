@@ -20,7 +20,13 @@ class distance():
             X = self.x[0]
             Y = self.x[1]
             return (abs((X[0]-Y[0])) + abs((X[1]-Y[1])))
-
+    def help(self):
+        print("Help section for Distance")
+        print('''
+                    1. Euclidean distance - 
+                                            Use euclidean() function with parameter [[cord1,cord2]]
+                                        
+        ''')
 
 #Test Class
 dis = distance([[10,12],[20,24],[15,18],[10,8],[5,7]])
@@ -28,7 +34,9 @@ dis1 = distance([[2, 3], [5, 6]])
 dd = distance()
 row1 = [10, 20, 15, 10, 5]
 row2 = [12, 24, 18, 8, 7]
-print(dd.euclidean2d(row1, row2))
+# print(dd.euclidean2d(row1, row2))
+print(dd.help())
+
 # print(dis1.manhattan())
 
 
