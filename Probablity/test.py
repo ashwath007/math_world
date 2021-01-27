@@ -1,6 +1,29 @@
 import hell as H
+import matplotlib.pyplot as plt
 # import distance as d
-from distance import manhattan2d,euclidean2d,hamming
+from distance import manhattan2d,euclidean2d,hamming,euclideanD
+
+
+print(euclideanD([[10,12],[20,24],[15,18],[10,8],[5,7]]))
+res = euclideanD([[10,12],[20,24],[15,18],[10,8],[5,7]])
+
+
+plt.scatter([10,12],[20,24],c='red')
+print(res[0])
+plt.plot([10,12],[20,24],'g--', label=res[0])
+plt.legend()
+plt.show()
+
+
+
+
+
+
+
+
+
+
+
 
 y_true = [3, -0.5, 2, 7]
 y_pred = [2.5, 0.0, 2, 8]

@@ -30,6 +30,13 @@ def hamming(a,b):
     return sum(abs(a-b) for a,b in zip(a,b))/len(a)
 
 
+def euclideanD(X):
+    res = list()
+    for i in range(len(X)-1):
+        print(X[i])
+        for j in range(len(X[i])-1):
+            res.append(sqrt(abs(X[i][j] - X[i+1][j])**2+abs(X[i][j+1] - X[i+1][j+1] )**2))
+    return res
 
 
 def help(self):
