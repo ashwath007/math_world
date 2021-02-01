@@ -39,12 +39,12 @@ c = H.ev(y_true,y_pred,s)
 # dis = d.distance([[10,12],[20,24],[15,18],[10,8],[5,7]])
 # dis1 = d.distance([[2, 3], [5, 6]])
 # dd = d.distance()
-# row1 = [10, 20, 15, 10, 5]
-# row2 = [12, 24, 18, 8, 7]
-row1 = [0, 0, 0, 0, 0, 1]
-row2 = [0, 0, 0, 0, 1, 0]
-# print(euclidean2d(row1, row2))
-print(hamming(row1, row2))
+row1 = [10, 20]
+row2 = [12, 24]
+# row1 = [0, 0, 0, 0, 0, 1]
+# row2 = [0, 0, 0, 0, 1, 0]
+print(euclidean2d(row1, row2))
+# print(hamming(row1, row2))
 
 # print(manhattan2d(row1, row2))
 

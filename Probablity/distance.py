@@ -44,5 +44,5 @@ def help(self):
     return('''
         1. Euclidean distance - 
                     Use euclidean() function with parameter [[cord1,cord2]]
-                                    
+                                         
     ''')
